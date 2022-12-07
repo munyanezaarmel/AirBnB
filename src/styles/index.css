@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'inter','sans-selif';
+}
+nav{
+    height: 80px;
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+ padding-left:15px;
+ padding-top:15px;
+ padding-bottom:15px;
+}
+.logo{
+    max-width: 100px;
+}
+
+.container-image{
+    align-self: center;
+    height: auto; 
+    width: auto; 
+    max-width: 900px; 
+    max-height: 900px;   
+}
+.hero-title{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+color: #000000;
+}
+.hero-paragraph{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+color: #222222;
+}
