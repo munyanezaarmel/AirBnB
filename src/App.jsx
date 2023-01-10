@@ -1,6 +1,7 @@
 
 import NavBar from './components/navbar';
 import Hero from './components/Hero';
+import Card from './components/Card'
 import './styles/App.css'
 function App() {
 
@@ -8,8 +9,8 @@ function App() {
     <div className="con">
  <NavBar />
  <Hero />
+ <Card />
     </div>
-
   )
 }
 
