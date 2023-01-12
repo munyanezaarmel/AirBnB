@@ -1,5 +1,5 @@
 import React from 'react'
-import hero from '../images/hero.png';
+import hero from '/public/images/hero.png';
 import '../styles/index.css';
 export default function Hero(){
     return (
