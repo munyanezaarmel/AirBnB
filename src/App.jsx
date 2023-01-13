@@ -5,6 +5,7 @@ import Card from './components/Card'
 import data from './data';
 import './styles/App.css';
 const dataArray=data.map((items)=>{
+
   return <Card 
   id={items.id}
   image={items.image}
@@ -12,6 +13,7 @@ const dataArray=data.map((items)=>{
   country={items.country}
   quotes={items.quotes}
   price={items.price}
+  openSport={items.openSport}
   />
 })
 function App() {

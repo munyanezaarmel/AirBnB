@@ -9,6 +9,7 @@ const data = [
         country:'USA',
         quotes:'life resorts with katie lafae',
         price:'form $136/person',
+        openSport:1
     },
     {
         id:2,
@@ -17,6 +18,7 @@ const data = [
         country:'USA',
         quotes:'life resorts with katie lafae',
         price:'form $136/person',
+        openSport:0
     },
     {  id:3,
         image: three,
@@ -24,6 +26,7 @@ const data = [
         country:'USA',
         quotes:'life resorts with katie lafae',
         price:'form $136/person',
+        openSport:27
     }
 ];
 

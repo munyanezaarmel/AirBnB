@@ -5,6 +5,7 @@ import {FaStar}  from 'react-icons/fa';
 export default function Card(props){
     return(
         <div className="card">
+        {props.openSport==0 && <div className="badge">SOULD OUT</div>}
            <img src={props.image} className='card-image' alt="swimming image" />
            <div className="ratings">
          <FaStar className="star" />
