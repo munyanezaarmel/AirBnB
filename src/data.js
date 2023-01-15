@@ -5,6 +5,7 @@ import three from '../public/images/3.png';
 const data = [
     {   id:1,
         image: one,
+        description: "",
         ratings:5.0,
         country:'USA',
         quotes:'life resorts with katie lafae',
@@ -14,6 +15,7 @@ const data = [
     {
         id:2,
         image: two,
+        description: "",
         ratings:5.0,
         country:'USA',
         quotes:'life resorts with katie lafae',
@@ -22,6 +24,7 @@ const data = [
     },
     {  id:3,
         image: three,
+        description: "",
         ratings:5.0,
         country:'USA',
         quotes:'life resorts with katie lafae',
